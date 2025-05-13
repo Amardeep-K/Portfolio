@@ -1,0 +1,43 @@
+@import "tailwindcss";
+.intro{
+  
+    max-width: 1333px;
+    padding: 10px 40px;
+    height:500px;
+}
+.hero{
+    display: flex;
+    max-width:95%;
+    align-items: center;
+    justify-content:space-around;
+    margin:auto;
+    z-index:10;
+    overflow-x: hidden!important;
+   
+    
+}
+.resume{
+    width: max-content;
+    color: #0c0c1d;
+    
+}
+
+
+.buttons button{
+    padding: 5px 10px;
+    padding-left:1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+.scrolling-text{
+   color: #ffffff11!important;
+   position: absolute;
+   
+   bottom: 0;
+   line-height:1.8;
+   
+}
+.right-image{
+    border-radius: 50%;
+    overflow: hidden;
+}

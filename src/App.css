@@ -1,0 +1,21 @@
+@import "tailwindcss";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+section{
+  height: 100vh;
+  font-size: 3rem;
+}

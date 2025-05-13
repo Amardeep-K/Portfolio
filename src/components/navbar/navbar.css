@@ -1,0 +1,35 @@
+@import "tailwindcss";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+     position:sticky;
+     top: 0;
+     z-index: 100;
+    
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c0c1d;
+   
+   
+    height: 80px;
+    /* border-bottom: 1px solid #ccc; */
+}
+.wrapper{
+    width: 84%;
+     margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+.site-title{
+    font-size: 26px;
+}
+.linkedin{
+    color:#0077B5;
+}
