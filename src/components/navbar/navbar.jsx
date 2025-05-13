@@ -3,7 +3,7 @@ import "./navbar.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub , faLinkedin  , faInstagram} from '@fortawesome/free-brands-svg-icons';
 import {motion} from "framer-motion"
-import Avatar from "../../assets/avatar.png"
+import Avatar from "../../assets/Avatar.png"
 const Navbar = () => {
   return (
     <div className=' navbar'>
