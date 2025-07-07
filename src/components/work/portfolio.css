@@ -1,0 +1,87 @@
+.Work-section{
+    width: 95%;
+    max-width: 1333px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.tabs{
+    font-size: 1.5rem;
+    padding: 2rem;
+    
+}
+.tab{
+    padding: 0.7rem 2rem;
+    border:1px solid white;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px 1px white; */
+
+}
+.content{
+    /* border:1px solid white; */
+    padding: 2rem 2.5rem;
+    
+
+
+}
+/* div{
+    border:1px solid white;
+} */
+.tab-content{
+    box-shadow: 0 2px 5px 0px rgba(255, 255, 255, 0.5);
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 5px;
+   
+    
+}
+
+.tab-content h2{
+    font-size: 1.5rem;
+    font-weight:bold;
+    text-align: left;
+}
+.workDescription{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+
+}
+.tab-content p{
+    font-size: 1rem;
+    text-align: justify;
+} 
+.tab-content span{
+    font-size: 1rem;
+    font-weight:800 ;
+    text-align: left;  
+   
+    
+}
+.tab-content span a{
+     border:1px solid white;
+    padding: 1rem 2rem;
+} 
+.tab-content span a::after{
+    content: '•';
+    padding:0.5rem;
+
+    color:#25D366;
+
+    margin-top:-10px;
+    
+}
+
+.tab1{
+    width: 100%;
+    padding: 1rem;
+}
+.hidden{
+    display:none;
+}
+.visible{
+    display: block;
+}

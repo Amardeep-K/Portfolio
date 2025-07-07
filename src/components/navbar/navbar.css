@@ -21,6 +21,7 @@
 .wrapper{
     width: 84%;
      margin: auto;
+     max-width: 1400px;
     
     display: flex;
     justify-content: space-between;

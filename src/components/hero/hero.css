@@ -1,6 +1,5 @@
 @import "tailwindcss";
 .intro{
-  
     max-width: 1333px;
     padding: 10px 40px;
     height:500px;
@@ -28,13 +27,22 @@
     padding-left:1.5rem !important;
     padding-right: 1.5rem !important;
 }
-
+.scrolling-zone{
+    mask-image: linear-gradient(
+  to right,
+  rgba(0, 0, 0, 0),
+  rgba(0, 0, 0, 1) 20%,
+  rgba(0, 0, 0, 1) 80%,
+  rgba(0, 0, 0, 0)
+);
+}
 .scrolling-text{
    color: #ffffff11!important;
    position: absolute;
    
    bottom: 0;
    line-height:1.8;
+   
    
 }
 .right-image{

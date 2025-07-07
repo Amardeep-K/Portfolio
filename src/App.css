@@ -10,12 +10,16 @@ body{
   font-family: 'Poppins', sans-serif;
   background-color: #0c0c1d;
   color: lightgray;
+  overflow-x: hidden;
 }
 a{
   text-decoration: none;
   color: inherit;
 }
 section{
-  height: 100vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
   font-size: 3rem;
+
 }

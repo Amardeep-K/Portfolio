@@ -9,25 +9,25 @@ const Hero = () => {
     <>
       <div className="hero m-auto flex items-center justify-between  relative overflow-hidden">
         {/* Left content */}
-        <div className="intro hero-content flex flex-col items-start py-8  justify-center gap-6">
+        <div className="intro  hero-content flex flex-col items-start py-8  justify-center gap-6">
           <h1 className="text-xl  text-lightgray">Amardeep Kumar</h1>
           <p className="text-5xl font-bold text-lightgray leading-relaxed">A passionate Web Developer<br></br> UI/UX Designer</p>
           <div className="buttons flex gap-4">
-            <button className="bg-white resume text-sm  lg:text-lg text-lg text-black py-3 md:text-sm rounded-4xl cursor-pointer">
+            <button className="bg-white resume text-sm lg:text-lg  text-black py-3 md:text-sm rounded-4xl cursor-pointer">
               Resume
             </button>
-            <button className="bg-gray border-2 text-sm border-white lg:text-lg md:text-sm text-white md:text-sm md:overflow-normal rounded-4xl cursor-pointer">
+            <button className="bg-gray border-2 text-sm border-white lg:text-lg  text-white md:text-sm md:overflow-normal rounded-4xl cursor-pointer">
               Contact Me
             </button>
           </div>
-
+          
           {/* Scroll icon with fade-in animation */}
           <motion.img
             initial={{ opacity: 0, scale:0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, type: 'spring', repeat: Infinity}}
           
-            className="h-10 w-10"
+            className="h-10 w-10  "
             src={Scroll}
             alt="scroll" />
         </div>
@@ -45,14 +45,14 @@ const Hero = () => {
             repeat: Infinity,
             repeatType: 'mirror',
           }}
-          className="scrolling-text absolute bottom-10 left-0 font-bold whitespace-nowrap text-9xl z-[1]"
+          className="scrolling-text  absolute bottom-10 left-0 font-bold whitespace-nowrap text-9xl z-[1]"
         >
           {/* Duplicate text to avoid blank space */}
           <span className="pr-32">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. &nbsp;
+            Developer • Designer  • Coder • Web Enthusiast • Problem Solver  • Focused • Builder  • Creative Thinker &nbsp;
           </span>
           <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. &nbsp;
+             Developer • Designer  • Coder • Web Enthusiast • Problem Solver  • Focused • Builder  • Creative Thinker &nbsp;
           </span>
         </motion.div>
       </div>
