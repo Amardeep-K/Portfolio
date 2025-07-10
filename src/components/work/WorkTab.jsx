@@ -3,9 +3,9 @@ import './portfolio.css'
 const WorkTab = ({ project, tab}) => {
   return (
     <div className="content">
-      <div className="tab1 lg:grid lg:grid-cols-3 gap-10 flex flex-col">
+      <div className="tab1 gap-10 flex flex-col">
         {project.map(data => (
-          <div key={data.id} className="tab-content ">
+          <div key={data.id} className="tab-content  flex">
             
             <img src={data.image} alt={data.title} />
             <div className="workDescription">
