@@ -30,7 +30,7 @@ const Skills = () => {
   return (
   <div className='Skills-Section'>
  <Marquee image={UpperMarquee} from={0} to={'-100%'}/>
-  <Marquee image={LowerMarquee} from={'-100%'} to={0}/>
+  <Marquee className='lg:visible hidden' image={LowerMarquee} from={'-100%'} to={0}/>
 
  </div>
 

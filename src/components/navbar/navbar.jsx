@@ -15,9 +15,9 @@ const Navbar = () => {
             initial={{scale:0.5,opacity:0}}
             animate={{scale:1,opacity:1}}
             transition={{duration:0.5, ease:"anticipate"}}
-             className='flex  items-center justify-center gap-4'>
+             className='flex  items-center justify-between gap-4'>
               <img className=' site-logo h-12 rounded-full' src={Avatar} alt="" />
-             <span className="site-title font-bold  text-lightgray">Amardeep Kumar</span>
+             <span className="site-title font-bold  text-lightgray text-lg hidden md:visible lg:visible">Amardeep Kumar</span>
              </motion.div>
 
               <div className="menu lg:flex md: hidden items-center justify-center">

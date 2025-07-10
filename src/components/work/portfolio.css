@@ -79,12 +79,12 @@
 }
 
 .tab1{
-    height:90rem;
+    height:100%;
     width:100%;
     padding: 1rem;
 }
 .tab1 img{
-    width: 30%;
+    width: 25rem;
 }
 .hidden{
     display:none;

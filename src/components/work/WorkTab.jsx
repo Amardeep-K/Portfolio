@@ -5,7 +5,7 @@ const WorkTab = ({ project, tab}) => {
     <div className="content">
       <div className="tab1 gap-10 flex flex-col">
         {project.map(data => (
-          <div key={data.id} className="tab-content  flex">
+          <div key={data.id} className="tab-content  lg:flex lg:flex-row md:grid md:grid-cols-1 md:h-fit">
             
             <img src={data.image} alt={data.title} />
             <div className="workDescription">

@@ -1,20 +1,16 @@
-.skills-icon{
-    height: 40px;
-    width: 56px;
-    color:white;
-}
+
 .Marquee-container{
     display: flex;
    justify-content: space-around;
     width: 95%;
     margin: auto;
-    gap:0;
+
     
 }
  
 .Marquee-slider{
     display:flex;
-    gap:0rem;
+    
     
 
 }
