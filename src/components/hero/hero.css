@@ -1,26 +1,44 @@
 @import "tailwindcss";
 .intro{
-    max-width: 1333px;
-    padding: 10px 40px;
-    height:100%;
+    max-width: 1300px;
+    /* padding: 10px 40px; */
+    width: 70%;
+    
 }
 .hero{
-    height: 100%;
-    display: flex;
-    max-width:95%;
-    align-items: center;
+    
+   display: flex;
+    width: 100%;
+     align-items: center;
     justify-content:space-around;
     margin:auto;
     z-index:10;
     overflow-x: hidden!important;
+    margin:auto;
+    /* border: 1px solid red; */
    
+    
+}
+.hero-container{
+      margin: auto;
+      padding: auto;
+       padding: 1rem;
+     width: 90%;
+    max-width: 1333px;
+      /* border:2px solid pink; */
+      gap:2rem;
+      padding: 2.5rem;
     
 }
 .resume{
     width: max-content;
-    color: #0c0c1d;
+    background-color:hsl(210,100%,60%);
+    color: white;
+    z-index: 99;
+    
     
 }
+
 
 
 .buttons button{

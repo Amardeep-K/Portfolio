@@ -109,11 +109,11 @@ const React = [
       <h2 className='font-bold text-center'> Work </h2>
 
       <div className="Tab-section">
-        <div className="tabs flex justify-center gap-10 ">
-          <div className="tab cursor-pointer" onClick={() => togglebutton('Tab1')}>Wordpress</div>
-          <div className="tab cursor-pointer" onClick={() => togglebutton('Tab2')}>React</div>
+        <div className="tabs transition-all duration-300 flex justify-center gap-10 ">
+          <div className={Toggled === 'Tab1'?"tab cursor-pointer active":"tab cursor-pointer inactive"} onClick={() => togglebutton('Tab1')}>Wordpress</div>
+          <div className={Toggled === 'Tab2'?"tab cursor-pointer active":"tab cursor-pointer inactive"} onClick={() => togglebutton('Tab2')}>React</div>
           
-        </div>
+        </div> 
 
         
        

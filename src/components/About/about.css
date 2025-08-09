@@ -1,8 +1,9 @@
 
 .about-section{
    margin: auto;
-   width: 95%;
+   width: 90%;
     max-width: 1333px;
+    /* border:1px solid white; */
 }
 
 .boxLayout{

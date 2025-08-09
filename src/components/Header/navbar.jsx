@@ -1,9 +1,13 @@
 import {React, useState} from 'react'
 import "./navbar.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub , faLinkedin  , faInstagram} from '@fortawesome/free-brands-svg-icons';
+import { faGithub , faLinkedin  , faInstagram, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 import {motion} from "framer-motion"
 import Avatar from "../../assets/Avatar.png"
+import Themetoggle from './Themetoggle';
+import '../../index.css';
+
+
 const Navbar = () => {
   return (
     <div className=' navbar'>
@@ -16,8 +20,8 @@ const Navbar = () => {
             animate={{scale:1,opacity:1}}
             transition={{duration:0.5, ease:"anticipate"}}
              className='flex  items-center justify-between gap-4'>
-              <img className=' site-logo h-12 rounded-full' src={Avatar} alt="" />
-             <span className="site-title font-bold  text-lightgray text-lg hidden md:visible lg:visible">Amardeep Kumar</span>
+              {/* <img className=' site-logo h-12 rounded-full' src={Avatar} alt="" /> */}
+             <span className="site-title font-bold  text-lightgray text-2xl tracking-wide   ">Porfolio</span>
              </motion.div>
 
               <div className="menu lg:flex md: hidden items-center justify-center">
@@ -52,27 +56,31 @@ const Navbar = () => {
             </ul>
           </div>
             <div className="social flex gap-4">
-                <motion.a
+                <motion.a  
                 initial={{scale:0.5,opacity:0}}
                 animate={{scale:1,opacity:1}}
                 transition={{duration:0.5, ease:"anticipate"}}
-                href="https://www.linkedin.com/in/amardeep-kumar-0b8a1b1b4/" target="_blank" rel="noopener noreferrer">
-                   <FontAwesomeIcon icon={faInstagram}  className=' text-2xl ' />
+                href="https://wa.me/917291843956" target="_blank" rel="noopener noreferrer">
+                   <FontAwesomeIcon icon={faWhatsapp}  className=' text-2xl ' />
                 </motion.a>
-                <motion.a 
+                <motion.a  
                   initial={{scale:0.5,opacity:0}}
                   animate={{scale:1,opacity:1}}
                   transition={{duration:0.5, ease:"anticipate"}}
                   href="https://www.linkedin.com/in/amardeep-kumar-0b8a1b1b4/" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faGithub}  className=' text-2xl ' />
                 </motion.a>
-                <motion.a
+                <motion.a 
                   initial={{scale:0.5,opacity:0}}
                   animate={{scale:1,opacity:1}}
                   transition={{duration:0.5, ease:"anticipate"}}
                   href="https://www.linkedin.com/in/amardeep-kumar-0b8a1b1b4/" target="_blank" rel="noopener noreferrer">
                    <FontAwesomeIcon icon={faLinkedin} className='  text-2xl rounded' />
                 </motion.a>
+
+                
+                  <Themetoggle/>
+                
             </div>
         </div>
     </div>
