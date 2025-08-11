@@ -52,7 +52,7 @@ if (isSent) {
   className="text-center font-bold m-3">
   Hire Me
   </motion.h2>
-  <div id="contact" className="Contactform lg:flex  lg:flex-row md:flex md:flex-col  justify-between" >
+  <div id="contact" className="Contactform lg:flex  lg:flex-row md:flex md:flex-col  justify-between lg:w-[90%] w-[100%] overflow-hidden" >
     <div className="contact-banner  flex-col border-2 border-[hsla(210,100%,60%,0.8)]  lg:rounded-tl-lg lg:rounded-bl-lg lg:border-r-0 border-b-0  flex gap-5  w-full lg:text-left lg:border-b-2 rounded-t-lg  text-center lg:rounded-tr-none">
      <h2 className="text-4xl  font-bold">Let’s Work Together</h2>
      <p>Have an idea, project, or collaboration in mind? Whether you’re a hiring manager looking for a dedicated team player or a client seeking a creative partner, I’m always excited to take on new challenges  from Ful Stack development and UI design to custom WordPress solutions. Drop me a message and I’ll get back to you as soon as possible.</p> 
