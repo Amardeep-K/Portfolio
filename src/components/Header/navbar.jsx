@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className=' navbar'>
         {/* sidebar */}
-        <div className="wrapper  ">
+        <div className="wrapper w-screen! ">
           
          
             <motion.div

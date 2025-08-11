@@ -25,7 +25,7 @@ delaySpeed: 1000,
   return (
     <>
       <div className="hero  m-auto lg:flex lg:flex-row md:flex md:flex-col-reverse  flex-col-reverse items-center justify-between  relative overflow-hidden">
-        <div className="hero-container flex md:h-screen lg:h-full m-auto lg:flex lg:flex-row md:flex md:flex-col-reverse  flex-col-reverse items-center  justify-between relative overflow-hidden">
+        <div className="hero-container flex  lg:h-full m-auto lg:flex lg:flex-row md:flex md:flex-col-reverse  flex-col-reverse items-center  justify-between relative overflow-hidden">
         {/* Left content */}
         <div className="intro  hero-content flex flex-col  md:items-center  items-center lg:items-start py-8  justify-center gap-6">
            <motion.h1    
