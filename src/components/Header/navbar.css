@@ -10,7 +10,7 @@
      z-index: 100;
      max-height: 60px;
     
-        display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #0c0c1d;

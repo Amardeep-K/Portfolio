@@ -3,11 +3,12 @@
    margin: auto;
    width: 90%;
     max-width: 1333px;
+    padding: 1vw;
     /* border:1px solid white; */
 }
 
 .boxLayout{
-    margin:2rem;
+    
     max-width: 100% ;
     gap:1rem;
     

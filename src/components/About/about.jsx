@@ -82,7 +82,7 @@ key="about"
             </div>
             <div className="innerbox w-full ">
                 <h3 className="font-semibold text-2xl text-[hsl(210,100%,60%)]"> Who I Am</h3>
-                <p>I’m Amardeep Kumar, a BCA graduate with a strong foundation in computer science and a deep passion for web development. Skilled in the MERN stack (MongoDB, Express.js, React, Node.js) and WordPress, I specialize in building interactive, user-friendly websites and applications. From developing engaging eCommerce platforms to creating innovative learning tools for kids, I combine technical expertise with creative design to deliver impactful digital experiences that solve real-world problems.
+                <p className='lg:text-justify text-left!'>I’m Amardeep Kumar, a BCA graduate with a strong foundation in computer science and a deep passion for web development. Skilled in the MERN stack (MongoDB, Express.js, React, Node.js) and WordPress, I specialize in building interactive, user-friendly websites and applications. From developing engaging eCommerce platforms to creating innovative learning tools for kids, I combine technical expertise with creative design to deliver impactful digital experiences that solve real-world problems.
 
  </p>
            {/*  <ul  className="list-disc text-justify text-sm/8 ">

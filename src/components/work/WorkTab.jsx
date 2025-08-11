@@ -11,7 +11,7 @@ const WorkTab = ({ project, tab}) => {
             </div>
             <div className="workDescription">
             <h2>{data.title}</h2>
-            <p>{data.description}</p>
+            <p className='lg:text-justify text-left!'>{data.description}</p>
             <span>
               <a href={data.link} target="_blank" rel="noopener noreferrer">
                 Live Link

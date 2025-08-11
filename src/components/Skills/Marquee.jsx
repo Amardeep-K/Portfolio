@@ -15,7 +15,7 @@ const Marquee = ({image,from,to}) => {
     {image.map((icon , idx)=>{
        return (
          <React.Fragment key={idx}>
-       <img className=' flex h-10   lg:gap:2 md:gap:2 gap:2' style={{ filter: 'brightness(0) saturate(100%) invert(85%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%) contrast(90%)' , width: 'lg:3rem 1rem ' }}  src={icon.src} key={idx}/>
+       <img className=' flex h-10   lg:gap:2 md:gap:2 gap:2 w-[1.5rem] lg:w-[4rem] md:w-[3rem]' style={{ filter: 'brightness(0) saturate(100%) invert(85%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%) contrast(90%)' }}  src={icon.src} key={idx}/>
          <div className="skillInfo "><p>{icon.title}</p></div>
       </React.Fragment>)
 })}
@@ -29,7 +29,7 @@ const Marquee = ({image,from,to}) => {
     {image.map((icon , idx)=>{
        return (
       <React.Fragment key={idx}>
-       <img className=' flex h-10 lg:gap:2 md:gap:2 gap:2' style={{ filter: 'brightness(0) saturate(100%) invert(85%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%) contrast(90%)' , width: 'lg:3rem 1rem ' }}  src={icon.src} key={idx}/>
+       <img className=' flex h-10 lg:gap:2 md:gap:2 gap:2 w-[1.5rem] lg:w-[4rem] md:w-[3rem]' style={{ filter: 'brightness(0) saturate(100%) invert(85%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%) contrast(90%)'  }}  src={icon.src} key={idx}/>
          <div className="skillInfo "><p>{icon.title}</p></div>
        </React.Fragment>
        )

@@ -106,7 +106,7 @@ const React = [
   };
 
   return (
-    <div className='Work-section'>
+    <div className='Work-section '>
        <motion.h2     
         initial={{scale:0.5,opacity:0}}
         animate={{scale:1,opacity:1}}
