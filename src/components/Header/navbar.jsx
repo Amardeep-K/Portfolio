@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub , faLinkedin  , faInstagram, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 import {motion} from "framer-motion"
 import Avatar from "../../assets/Avatar.png"
-import Themetoggle from './Themetoggle';
 import '../../index.css';
 
 
@@ -67,7 +66,7 @@ const Navbar = () => {
                   initial={{scale:0.5,opacity:0}}
                   animate={{scale:1,opacity:1}}
                   transition={{duration:0.5, ease:"anticipate"}}
-                  href="https://www.linkedin.com/in/amardeep-kumar-0b8a1b1b4/" target="_blank" rel="noopener noreferrer">
+                  href="https://github.com/Amardeep-K" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faGithub}  className=' text-2xl ' />
                 </motion.a>
                 <motion.a 
@@ -79,7 +78,7 @@ const Navbar = () => {
                 </motion.a>
 
                 
-                  <Themetoggle/>
+                  {/* <Themetoggle/> */}
                 
             </div>
         </div>

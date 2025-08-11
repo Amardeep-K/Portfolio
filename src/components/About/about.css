@@ -18,12 +18,19 @@
    
 }
 .innerbox{
-    padding: 1rem;
-  
+    padding: 1.5rem;
+    padding-left: 2.5rem;
+    text-align: left;
+    width: 100%;
     border:1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap:1rem
 }
 .innerbox2{
-    
+     width: 100%;
      padding: 1rem;
        
 
@@ -51,4 +58,13 @@
 
 .innersubbox{
      padding: 1rem; 
+}
+.skill-innerbox{
+    padding: 1rem;
+    padding-top: 2rem;
+}
+.btn-skills{
+    padding: 0.5rem 2rem;
+    background:hsl(210,100%,60%) ;
+    font-size: 1rem;
 }

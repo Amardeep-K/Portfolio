@@ -11,6 +11,7 @@ const Skills = () => {
   { src: "/figma.svg", title: "Figma" },
    { src: "/javascript.svg", title: "JavaScript" },
      { src: "/react.svg", title: "React" },
+      { src: "/nodedotjs.svg", title: "Node.js" },
   { src: "/html5.svg", title: "HTML5" }
 ];
 
@@ -23,8 +24,9 @@ const Skills = () => {
   { src: "/python.svg", title: "Python" },
 
   { src: "/tailwindcss.svg", title: "Tailwind CSS" },
- { src: "/woocommerce.svg", title: "WooCommerce" },
-  { src: "/wordpress.svg", title: "WordPress" }
+
+  { src: "/wordpress.svg", title: "WordPress" },
+    { src: "/react.svg", title: "React" },
 ];
 
   return (

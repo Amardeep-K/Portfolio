@@ -1,5 +1,6 @@
 import { useForm} from "react-hook-form"
 import React,{useState} from 'react'
+import {motion} from "framer-motion"
 
 import "./form.css"
 import emailjs from '@emailjs/browser';
@@ -44,11 +45,18 @@ if (isSent) {
   // watch input value by passing the name of it
   return (
   <>
-  <h2 className="text-center font-bold m-3"> Hire Me</h2>
-  <div className="Contactform lg:flex  lg:flex-row md:flex md:flex-col  justify-between" >
+  <motion.h2     
+  initial={{scale:0.5,opacity:0}}
+  animate={{scale:1,opacity:1}}
+  transition={{duration:0.6, ease:"anticipate"}}
+  className="text-center font-bold m-3">
+  Hire Me
+  </motion.h2>
+  <div id="contact" className="Contactform lg:flex  lg:flex-row md:flex md:flex-col  justify-between" >
     <div className="contact-banner  flex-col border-2 border-[hsla(210,100%,60%,0.8)]  lg:rounded-tl-lg lg:rounded-bl-lg lg:border-r-0 border-b-0  flex gap-5  w-full lg:text-left lg:border-b-2 rounded-t-lg  text-center lg:rounded-tr-none">
      <h2 className="text-4xl  font-bold">Let’s Work Together</h2>
      <p>Have an idea, project, or collaboration in mind? Whether you’re a hiring manager looking for a dedicated team player or a client seeking a creative partner, I’m always excited to take on new challenges  from Ful Stack development and UI design to custom WordPress solutions. Drop me a message and I’ll get back to you as soon as possible.</p> 
+    <p>Drop me a line at: <a href="mailto:amardeepkumar072004@gmail.com">amardeepkumar072004@gmail.com</a></p>
     </div>
     <div className="contact-form flex flex-col w-full border-2 border-[hsla(210,100%,60%,0.8)]  lg:rounded-tr-lg rounded-b-lg lg:rounded-br-lg border-t-0 lg:border-t-2 lg:border-l-0 lg:rounded-bl-none">
     <form className="  text-white flex flex-col gap-2 " onSubmit={handleSubmit(onSubmit)}>
@@ -82,7 +90,7 @@ if (isSent) {
         {errors.Message && <span className="error-msg">Invalid</span>}
       
 
-      <input className="rounded bg-transparent sbmit-btn  text-[1rem] p-5 w-sm " type="submit"  disabled={isSubmitting} value={isSent
+      <input className="rounded-3xl bg-transparent sbmit-btn  text-[1rem] p-5 w-sm " type="submit"  disabled={isSubmitting} value={isSent
             ? "Sent ✅"
             : isSubmitting
             ? "Sending . . ."

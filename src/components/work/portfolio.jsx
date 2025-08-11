@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './portfolio.css';
 import WorkTab from './WorkTab';
+import {motion} from 'framer-motion'
 
 const Portfolio = () => {
   const project = [
@@ -106,7 +107,11 @@ const React = [
 
   return (
     <div className='Work-section'>
-      <h2 className='font-bold text-center'> Work </h2>
+       <motion.h2     
+        initial={{scale:0.5,opacity:0}}
+        animate={{scale:1,opacity:1}}
+        transition={{duration:0.6, ease:"anticipate"}}
+      className='font-bold text-center'> Projects </motion.h2>
 
       <div className="Tab-section">
         <div className="tabs transition-all duration-300 flex justify-center gap-10 ">

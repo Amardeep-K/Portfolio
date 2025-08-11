@@ -1,7 +1,9 @@
 import React from 'react';
 import './hero.css';
+import { Link } from "react-scroll";
 import Scroll from '../../assets/scroll.png';
 import Avatar from '../../assets/Avatar.png';
+
 import { motion } from 'framer-motion';
 import { useTypewriter , Cursor } from 'react-simple-typewriter';
 
@@ -12,22 +14,50 @@ const Hero = () => {
 delaySpeed: 1000,
     deleteSpeed:20
   })
+  const buttonVariants = {
+    hover: { 
+      scale: 1.05,
+      y: -2,
+      transition: { duration: 0.2 }
+    },
+    tap: { scale: 0.98 }
+  };
   return (
     <>
       <div className="hero  m-auto lg:flex lg:flex-row md:flex md:flex-col-reverse  flex-col-reverse items-center justify-between  relative overflow-hidden">
         <div className="hero-container flex md:h-screen lg:h-full m-auto lg:flex lg:flex-row md:flex md:flex-col-reverse  flex-col-reverse items-center  justify-between relative overflow-hidden">
         {/* Left content */}
         <div className="intro  hero-content flex flex-col  md:items-center  items-center lg:items-start py-8  justify-center gap-6">
-          <h1 className="text-2xl
-           lg:text-left md:text-center sm:text-ce text-lightgray font-bold">Hi 👋, I'm Amardeep </h1>
-          <h2 className="lg:text-5xl md:text-4xl  lg:text-left md:text-center text-center text-lg w-full  font-bold lg:font-bold text-lightgray leading-relaxed">A Passionate 
-            <span style={{color:"#3eaeff"}}>{text} </span> <span><Cursor/></span></h2>
+           <motion.h1    
+            initial={{scale:0.5,opacity:0}}
+            animate={{scale:1,opacity:1}}
+            transition={{duration:0.6, ease:"anticipate"}}h1 className="text-2xl
+           lg:text-left md:text-center sm:text-ce text-lightgray font-bold">Hi 👋, I'm Amardeep </motion.h1>
+          <motion.h2     
+           initial={{scale:0.5,opacity:0}}
+           animate={{scale:1,opacity:1}}
+           transition={{duration:0.6, ease:"anticipate"}} className="lg:text-5xl md:text-4xl  lg:text-left md:text-center text-center text-lg w-full  font-bold lg:font-bold text-lightgray leading-relaxed">A Passionate 
+            <span style={{color:"#3eaeff"}}>{text} </span> <span><Cursor/></span>
+            </motion.h2>
           <div className="buttons flex gap-4">
-            <button className=" resume text-sm lg:text-lg  text-black py-3 md:text-sm rounded-4xl cursor-pointer">
-              Resume
-            </button>
+              <motion.button 
+                   variants={buttonVariants}
+                          whileHover="hover"
+                          whileTap="tap"
+                          initial={{ opacity: 0, y: 10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ delay: 0.3, duration: 0.2 }} href="https://www.google.com/" className=" resume text-sm lg:text-lg  text-black py-3 md:text-sm rounded-4xl cursor-pointer">
+             <a href="./Amardeep-Kumar-Resume .pdf" download={true}> Resume</a>
+            </motion.button>
             <button className="bg-gray border-2  border-white lg:text-lg  text-white text-sm md:overflow-normal rounded-4xl cursor-pointer">
-              Contact 
+             <Link 
+  to="contact" 
+  smooth={true} 
+  duration={500} 
+  className="btn cursor-pointer"
+>
+  Contact
+</Link>
             </button>
           </div>
           

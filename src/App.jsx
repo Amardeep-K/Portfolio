@@ -7,7 +7,7 @@ import Portfolio from './components/work/portfolio'
 import Skills from './components/Skills/skills'
 import Contactform from './components/Contact/Contactform'
 import Footer from './components/Footer/Footer'
-import "./index.css";
+
 const App = () => {
   return (
     <div>
