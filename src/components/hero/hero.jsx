@@ -32,11 +32,11 @@ delaySpeed: 1000,
             initial={{scale:0.5,opacity:0}}
             animate={{scale:1,opacity:1}}
             transition={{duration:0.6, ease:"anticipate"}}h1 className="text-2xl
-           lg:text-left md:text-center sm:text-ce text-lightgray font-bold">Hi 👋, I'm Amardeep </motion.h1>
+           lg:text-left md:text-center text-center text-lightgray font-bold">Hi , I'm Amardeep👋</motion.h1>
           <motion.h2     
            initial={{scale:0.5,opacity:0}}
            animate={{scale:1,opacity:1}}
-           transition={{duration:0.6, ease:"anticipate"}} className="lg:text-5xl md:text-4xl  lg:text-left md:text-center text-center text-lg w-full  font-bold lg:font-bold text-lightgray leading-relaxed">A Passionate 
+           transition={{duration:0.6, ease:"anticipate"}} className="lg:text-5xl md:text-4xl  lg:text-left md:text-center text-center text-[1rem]  lg:w-full w-screen  font-bold lg:font-bold text-lightgray leading-relaxed">A Passionate 
             <span style={{color:"#3eaeff"}}>{text} </span> <span><Cursor/></span>
             </motion.h2>
           <div className="buttons flex gap-4">
