@@ -87,9 +87,7 @@ const Skillset = () => {
     }} className=" flex   flex-wrap items-center">
       
         {skills.map(data => (
-          <div key={data.id} style={{
-            height:'5rem',
-            width:'5rem',
+          <div key={data.id} className='lg:h-[5rem] lg:w-[5rem] h-[3.5rem] w-[3.5rem] ' style={{
             padding:'1rem',
             display:'flex',
             flexDirection:'column',
@@ -98,7 +96,7 @@ const Skillset = () => {
             borderColor:'rgb(51, 153, 255,0.3)',
             background:'rgb(51, 153, 255,0.2)'
           }} >
-            <img  className=" h-[4rem]" src={data.image} alt={data.title} />
+            <img  className=" lg:h-[4rem]" src={data.image} alt={data.title} />
             {/* <h2>{data.title}</h2> */}
             
             

@@ -55,8 +55,8 @@ if (isSent) {
   <div id="contact" className="Contactform lg:flex  lg:flex-row md:flex md:flex-col  justify-between lg:w-[90%] w-[100%] overflow-hidden" >
     <div className="contact-banner  flex-col border-2 border-[hsla(210,100%,60%,0.8)]  lg:rounded-tl-lg lg:rounded-bl-lg lg:border-r-0 border-b-0  flex gap-5  w-full lg:text-left lg:border-b-2 rounded-t-lg  text-center lg:rounded-tr-none">
      <h2 className="lg:text-4xl md:text-3xl text-2xl  font-bold">Let’s Work Together</h2>
-     <p>Have an idea, project, or collaboration in mind? Whether you’re a hiring manager looking for a dedicated team player or a client seeking a creative partner, I’m always excited to take on new challenges  from Ful Stack development and UI design to custom WordPress solutions. Drop me a message and I’ll get back to you as soon as possible.</p> 
-    <p>Drop me a line at: <a href="mailto:amardeepkumar072004@gmail.com">amardeepkumar072004@gmail.com</a></p>
+     <p>Have an idea, project, or collaboration in mind? Whether you’re a hiring manager looking for a dedicated team player or a client seeking a creative partner, I’m always excited to take on new challenges  from Full Stack development and UI design to custom WordPress solutions. Drop me a message and I’ll get back to you as soon as possible.</p> 
+    <p>Email: <a href="mailto:amardeepkumar072004@gmail.com">amardeepkumar072004@gmail.com</a></p>
     </div>
     <div className="contact-form flex flex-col w-full border-2 border-[hsla(210,100%,60%,0.8)]  lg:rounded-tr-lg rounded-b-lg lg:rounded-br-lg border-t-0 lg:border-t-2 lg:border-l-0 lg:rounded-bl-none">
     <form className="  text-white flex flex-col gap-2 " onSubmit={handleSubmit(onSubmit)}>

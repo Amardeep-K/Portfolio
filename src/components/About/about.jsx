@@ -73,10 +73,10 @@ key="about"
               initial={{scale:0.5,opacity:0}}
               animate={{scale:1,opacity:1}}
               transition={{duration:0.6, ease:"anticipate"}} className='font-bold'>
-                About Me
+                About
               </motion.h2>
-        <div className="boxLayout lg:grid-cols-2 lg:grid grid grid-cols-1  text-sm" >
-          <div className="innerbox2 w-screen  ">
+        <div className="boxLayout lg:grid-cols-1 lg:grid grid grid-cols-1  text-sm" >
+          <div className="innerbox2 w-screen hidden ">
                 
              
             </div>
@@ -143,7 +143,7 @@ key="about"
          className="boxLayout lg:items-center  lg:flex grid grid-cols-1  text-sm" >
         
             <div className="skill-innerbox  w-full h-full ">
-            <h2 className="lg:text-[1.5rem] text-[1.1rem] font-bold">Bringing practical web solutions to life with a focus on user clarity and accessibility. </h2> 
+            <h2 className="lg:text-[1.5rem] text-[0.9rem] lg:font-bold md:font-bold">Bringing practical web solutions to life with a focus on user clarity and accessibility. </h2> 
 
           <Skillset/>
        <motion.button 
