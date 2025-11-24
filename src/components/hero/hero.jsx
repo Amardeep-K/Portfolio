@@ -9,7 +9,7 @@ import { useTypewriter , Cursor } from 'react-simple-typewriter';
 
 const Hero = () => {
   const [text] = useTypewriter({
-    words : [' Web Developer', ' UI Designer',' Wordpress Developer','FullStack Developer'],
+    words : [' Web Developer', ' UI Designer',' Wordpress Developer',' FullStack Developer'],
     loop: 0  ,// or loop: true for infinite loop
 delaySpeed: 1000,
     deleteSpeed:20
@@ -47,7 +47,7 @@ delaySpeed: 1000,
                           initial={{ opacity: 0, y: 10 }}
                           animate={{ opacity: 1, y: 0 }}
                           transition={{ delay: 0.3, duration: 0.2 }} href="https://www.google.com/" className=" resume text-sm lg:text-lg  text-black py-3 md:text-sm rounded-4xl cursor-pointer">
-             <a href="./Amardeep-Kumar-Resume .pdf" download={true}> Resume</a>
+             <a href="./Amardeep_kumar_Resume.pdf" download={true}> Resume</a>
             </motion.button>
             <motion.button 
             variants={buttonVariants}

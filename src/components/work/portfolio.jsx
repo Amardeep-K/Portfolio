@@ -20,13 +20,6 @@ const Portfolio = () => {
     link: "https://indiatravelwithsid.com/"
   },
   {
-    id: 3,
-    title: "Beautiful Coordinates",
-    description: "Promoting unique, lesser-known travel destinations.",
-    image: "/Beauco.png",
-    link: "https://beauco.in/"
-  },
-  {
     id: 4,
     title: "Yellow Design Cafe",
     description: "Showcasing creative solutions in architecture and interiors.",
@@ -34,13 +27,7 @@ const Portfolio = () => {
     link: "https://yellowdesigncafe.com/"
   },
   
-  {
-    id: 6,
-    title: "22 Electric House",
-    description: "A professional site for professional services.",
-    image: "/Electrichouse.png",
-    link: "https://22electrichouse.com/"
-  }
+
 ];
  const AllProjects=[
      {
@@ -71,21 +58,23 @@ const Portfolio = () => {
     image: "/yellowdesign.png",
     link: "https://yellowdesigncafe.com/"
   },
-  
-  {
-    id: 6,
-    title: "22 Electric House",
-    description: "A professional site for professional services.",
-    image: "/Electrichouse.png",
-    link: "https://22electrichouse.com/"
-  },
   {
     id: 7,
     title: "SignSense",
     description: "A real-time video calling app with ASL sign recognition using TensorFlow.js, MediaPipe, and WebRTC.",
     image: "Sign-sense.png",
-    link: "https://sign-sense-alpha.vercel.app/"
-  }
+    link: "https://sign-sense-alpha.vercel.app/",
+    githublink:"https://github.com/Amardeep-K/Sign-Sense"
+  },
+  {
+  id: 8,
+  title: "TripNest",
+  description: "A full-stack Airbnb-style platform with property listings, reviews, JWT authentication, Cloudinary image uploads, and a responsive MERN-based UI.",
+  image: "TripNest.png",
+  link: "https://tripnesst.netlify.app/",
+  githublink:"https://github.com/Amardeep-K/TripNest-Air-Bnb-Clone---Mern-Stack-"
+}
+
  ]
 const React = [
   {
@@ -93,8 +82,18 @@ const React = [
     title: "SignSense",
     description: "A real-time video calling app with ASL sign recognition using TensorFlow.js, MediaPipe, and WebRTC.",
     image: "Sign-sense.png",
-    link: "https://sign-sense-alpha.vercel.app/"
-  }
+    link: "https://sign-sense-alpha.vercel.app/",
+    githublink:"https://github.com/Amardeep-K/Sign-Sense"
+  },
+  {
+  id: 8,
+  title: "TripNest",
+  description: "A full-stack Airbnb-style platform with property listings, reviews, JWT authentication  and a responsive MERN-based UI.",
+  image: "TripNest.png",
+  link: "https://tripnesst.netlify.app/",
+  githublink:"https://github.com/Amardeep-K/TripNest-Air-Bnb-Clone---Mern-Stack-"
+}
+
 ];
 
 

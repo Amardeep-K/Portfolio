@@ -80,22 +80,8 @@
     font-size: 1rem;
     text-align: justify;
 } 
-.tab-content span{
-    font-size: 1rem;
-    font-weight:800 ;
-    text-align: left;  
-   
-    
-}
-.tab-content span a{
-     border:2px solid hsla(210,100%,60%,0.8);
-    padding: 0.6rem 1.5rem;
-    font-weight: 400;
 
 
-   
-    border-radius: 2rem;
-} 
 .tab-content span a:hover{
     transition: 0.5s;
   background-color: hsl(210,100%,60%);
